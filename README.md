@@ -35,7 +35,7 @@ Look for port D4 and connect the buttonState
 
 ### Software
 
-First define a constant to hold the GPIO pin that the LED uses. The Up<sup>2</sup> board uses a SUBPLATFORM_OFFSET of 512. The offset needs to be added to the all the PIN numbers used in the program.
+First define a constant to hold the GPIO pin that the Button uses. The Up<sup>2</sup> board uses a SUBPLATFORM_OFFSET of 512. The offset needs to be added to the all the PIN numbers used in the program.
 
 ```c
 // Digital Input Sensor should be plugged into D4
